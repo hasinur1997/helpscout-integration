@@ -1,0 +1,17 @@
+{
+    "name": "hasinur1997/helpscout-integration",
+    "description": "A HelpScout integration plugin",
+    "type": "WordPress Plugin",
+    "authors": [
+        {
+            "name": "Hasinur Rahman",
+            "email": "hasinurrahman3@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HelpScoutIntegration\\": "includes/"
+        }
+    }
+}
