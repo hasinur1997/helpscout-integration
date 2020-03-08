@@ -25,10 +25,13 @@ class Customer {
 
 		if ( ! $customer_id ) {
 			$response = Request::get('customers?mailbox=' . Setting::get_mailbox_id() . '&query=(email:"'. $user_email .'")');
-			error_log( print_r( $response, true ) );
 
-			$customer_id = $response->_embedded->customers[0]->id;
-			update_user_meta( $user_id, '_helpscout_customer_id', $customer_id );
+			if ( ! empty($response->_embedded->customers ) ) {
+				$customer_id = $response->_embedded->customers[0]->id;
+				update_user_meta( $user_id, '_helpscout_customer_id', $customer_id );
+			}
+
+			$customer_id = 0;
 		}
 
 		return $customer_id;
