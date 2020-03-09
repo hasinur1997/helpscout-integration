@@ -9,30 +9,30 @@ namespace HelpScoutIntegration\Admin;
  * @package HelpScoutIntegration\Admin
  */
 class Conversation {
-	/**
-	 * Conversation constructor.
-	 */
-	public function __construct() {
+    /**
+     * Conversation constructor.
+     */
+    public function __construct() {
 
-	}
+    }
 
-	public function get() {
+    public function get() {
 
-	}
+    }
 
-	public function find($id) {
+    public function find( $id ) {
 
-	}
+    }
 
-	public function create(array $data) {
+    public function create( array $data ) {
 
-	}
+    }
 
-	public function update($id) {
+    public function update( $id ) {
 
-	}
+    }
 
-	public function delete($id) {
+    public function delete( $id ) {
 
-	}
+    }
 }

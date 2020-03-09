@@ -1,10 +1,10 @@
 <div class="container-fluid">
     <?php
-        global $post;
-        echo "<pre>";
-    print_r($tickets);
+    global $post;
+    echo "<pre>";
+    print_r( $tickets );
     ?>
-    <a href="<?php echo site_url($post->post_name . '?action=create-new-ticket');?>"> Create New Ticket</a>
+    <a href="<?php echo site_url( $post->post_name . '?action=create-new-ticket' ); ?>"> Create New Ticket</a>
     <div class="row">
         <h2>Help Scout Ticket List</h2>
         <div class="col-md-8 offset-md-2">
