@@ -50,10 +50,7 @@ class Admin {
      */
     public function enqueue_scripts( $hooks ) {
         wp_enqueue_style( 'bootstrap-style' );
-<<<<<<< HEAD
         wp_enqueue_style('conversesion-style');
-=======
->>>>>>> ad78db0bfdd500ce5a24c4ffdbda048c3982dfe4
         wp_enqueue_script( 'bootstrap-script' );
     }
 }

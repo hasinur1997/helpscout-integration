@@ -44,6 +44,41 @@
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                     <input type="submit" name="submit" value="Send">
                 </form>
+
+                <div id="support-conversation-thread">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Project</td>
+                                <td>WP User Frontend</td>
+                            </tr>
+                            <tr>
+                                <td>Project Type</td>
+                                <td>Plugin</td>
+                            </tr>
+                            <tr>
+                                <td>Stie name</td>
+                                <td>Happy Addons</td>
+                            </tr>
+                            <tr>
+                                <td>Stie URL</td>
+                                <td>http://localhost/happyaddons</td>
+                            </tr>
+                            <tr>
+                                <td>Admin Email </td>
+                                <td>john@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Client name </td>
+                                <td>John Doe</td>
+                            </tr>
+                            <tr>
+                                <td>Client email </td>
+                                <td>john@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
