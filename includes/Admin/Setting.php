@@ -47,7 +47,7 @@ class Setting {
 	 */
 	public static function get_app_id() {
 		$helpscout_settings = self::get_settings();
-		$app_id = isset( $helpscout_settings['app_id'] ) ? $helpscout_settings['app_id'] : '';
+		$app_id             = isset( $helpscout_settings['app_id'] ) ? $helpscout_settings['app_id'] : '';
 
 		return $app_id;
 	}
@@ -89,9 +89,9 @@ class Setting {
 			return;
 		}
 
-		$app_id = isset( $_POST['helpscout_app_id'] ) ?  sanitize_text_field($_POST['helpscout_app_id']) : '';
-		$app_secret = isset( $_POST['helpscout_app_secret'] ) ?  sanitize_text_field($_POST['helpscout_app_secret']) : '';
-		$mail_box_id    = isset( $_POST['mailbox'] ) ? sanitize_text_field( $_POST['mailbox'] ) : '';
+		$app_id      = isset( $_POST['helpscout_app_id'] ) ? sanitize_text_field( $_POST['helpscout_app_id'] ) : '';
+		$app_secret  = isset( $_POST['helpscout_app_secret'] ) ? sanitize_text_field( $_POST['helpscout_app_secret'] ) : '';
+		$mail_box_id = isset( $_POST['mailbox'] ) ? sanitize_text_field( $_POST['mailbox'] ) : '';
 
 		$data = [
 			'app_id'        => $app_id,
