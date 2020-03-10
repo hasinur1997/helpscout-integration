@@ -88,9 +88,11 @@ class Assets {
             'bootstrap-style' => [
                 'src' => HELPSCOUT_INTEGRATION_ASSETS . '/frontend/css/bootstrap.min.css'
             ],
+
             'conversesion-style' => [
                 'src' => HELPSCOUT_INTEGRATION_ASSETS . '/frontend/css/style.css'
             ],
+
         ];
     }
 }

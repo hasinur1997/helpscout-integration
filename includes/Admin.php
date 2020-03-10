@@ -19,6 +19,7 @@ class Admin {
     public function init_hooks() {
         add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
         add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_scripts' ], 5 );
+
     }
 
     /**
@@ -49,7 +50,10 @@ class Admin {
      */
     public function enqueue_scripts( $hooks ) {
         wp_enqueue_style( 'bootstrap-style' );
+<<<<<<< HEAD
         wp_enqueue_style('conversesion-style');
+=======
+>>>>>>> ad78db0bfdd500ce5a24c4ffdbda048c3982dfe4
         wp_enqueue_script( 'bootstrap-script' );
     }
 }

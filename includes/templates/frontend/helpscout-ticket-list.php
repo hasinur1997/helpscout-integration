@@ -1,5 +1,6 @@
 <div class="enzaime-support">
     <?php
+
         global $post;
         // echo "<pre>";
     // print_r($tickets);
