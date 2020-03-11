@@ -32,7 +32,7 @@ class Thread {
      *
      * @return mixed
      */
-    public static function create( $conversation_id, array $data ) {
+    public static function create( $conversation_id, $data ) {
         $chat = Request::post( 'conversations/' . $conversation_id . '/chats', $data );
 
         return $chat;

@@ -74,6 +74,12 @@ class Assets {
                 'version'   => filemtime( HELPSCOUT_INTEGRATION_PATH . '/assets/frontend/js/bootstrap.min.js' ),
                 'deps'      => [ 'jquery' ],
                 'in_footer' => true
+            ],
+            'helpscout-script'  =>  [
+                'src'       => HELPSCOUT_INTEGRATION_ASSETS . '/frontend/js/script.js',
+                'version'   => filemtime( HELPSCOUT_INTEGRATION_PATH . '/assets/frontend/js/script.js' ),
+                'deps'      => [ 'jquery' ],
+                'in_footer' => true
             ]
         ];
     }

@@ -34,6 +34,7 @@ class Request {
             ] );
         }
 
+        error_log( print_r( $response, true ) );
         return json_decode( $response['body'] );
     }
 
