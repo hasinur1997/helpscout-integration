@@ -38,8 +38,9 @@
                 </table>
             </div>
             <div id="support-conversation-wrap">
-                <h3>Subject</h3>
+                
                 <form action="" method="post" id="helpscout-reply-form">
+                    <h3>Subject</h3>
                     <label>Message</label>
                     <textarea name="" id="message" cols="30" rows="10"></textarea>
                     <input type="submit" name="submit" value="Send">
