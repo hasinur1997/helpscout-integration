@@ -1,7 +1,7 @@
 {
     "name": "hasinur1997/helpscout-integration",
     "description": "A HelpScout integration plugin",
-    "type": "WordPress Plugin",
+    "type": "wordpress-plugin",
     "authors": [
         {
             "name": "Hasinur Rahman",
